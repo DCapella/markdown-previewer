@@ -1,5 +1,5 @@
 # React Redux Markdown Previewer
-An application that allows you to type within a text area and displays it in GitHub flavored markdown.
+An application that allows you to type within a text area and displays it in flavored markdown.
 
 # Built With
 * HTML
