@@ -1,0 +1,61 @@
+/* GLOBAL */
+
+body {
+  background-color: darkblue;
+}
+
+.title {
+  text-align: center;
+  font-size: 110%;
+  font-weight: bold;
+
+  background-color: lightblue;
+  padding-top: 5px;
+
+  width: 99%;
+  height: 30px;
+
+  border-radius: 15px;
+  border: 2px solid black;
+}
+
+
+/* EDITOR */
+
+.editorWrap {
+  display: block;
+  margin: 25px auto 25px auto;
+
+  width: 80%;
+}
+.editorWrap textarea {
+    background-color: lightblue;
+    padding: 20px;
+
+    border-radius: 15px;
+
+    resize: vertical;
+    width: 99%;
+    height: 200px;
+    min-height: 100px;
+  }
+
+
+/* PREVIEW */
+
+.previewWrap {
+  margin: 25px auto 25px auto;
+
+  width: 90%;
+}
+.previewWrap .jumbotron {
+  background-color: lightblue;
+
+  border: 2px solid black;
+  border-radius: 20px;
+
+  width: 99%;
+}
+.previewWrap .jumbotron #preview {
+  padding: 20px;
+}
